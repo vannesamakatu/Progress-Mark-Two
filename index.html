@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Mark One</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light  shadow fixed-top" style="background-color: wheat; float: left; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <div class="logo">
+        <a class="navbar-logo" href="#"></a> SUPER SUB</a>
+      </div>
+ 
+    <div class="nav">
+        <ul class="nav flex-column nav-link"></ul>
+              <a class="nav-link" style='color:black' href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style='color:black' href="./pages/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style='color:black' href="./pages/buildsub.html">Build A Sub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style='color:black' href="./pages/checkout.html">Checkout</a>
+            </li>
+          </ul>
+        
+    </div>
+</nav>
+
+
+  <!-- Background image -->
+  <div class="p-5 text-center bg-image" style="
+      background-image: url('https://images.unsplash.com/photo-1511421585906-57a6e6dc3a2f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80');
+      height: 500px;">
+  
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white" style="font-family:Georgia, 'Times New Roman', Times, serif;">
+          <h2 class="mb-3">SUPER SUB</h2>
+          <h4 class="mb-3">Homemade Sub Sandwiches Made With Love!</h4>
+          <a class="btn btn-outline-dark btn-sm" style="font-family:'Courier New', Courier, monospace; font-weight: 600;"  href="./pages/about.html" role="button">About Us</a>
+          <a class="btn btn-outline-dark btn-sm" style="font-family:'Courier New', Courier, monospace; font-weight: 600;" href="./pages/buildsub.html" role="button">Create a Sub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+
+   <!--About Section-->
+   <div class="container" style="margin-top: 50px;">
+    <div class="row">
+        <div class="col-md-6">
+           <h3>About Super Subs!</h3>
+           <p>At Super Subs we take pride in crafting the most delicious and satisfying sub sandwiches for our valued customers. 
+            At Super Subs, we believe that a great sub is more than just a meal, it's an experience that leaves you craving for more. 
+            With a passion for creating mouthwatering combinations and using only the freshest ingredients.
+            We carefully select each ingredient to ensure superior flavor and texture in every sandwich we serve.
+            With years of culinary expertise, our team of skilled sandwich artisans has perfected the art of creating mouthwatering subs that cater to every palate.
+            We take pride in using only the freshest, locally sourced ingredients to ensure that each bite bursts with flavor.
+            Whether you're a meat lover, vegetarian, or have specific dietary preferences, we have a wide variety of options to suit your needs.
+          </p>
+        </div> 
+   
+
+        <div class="col-md-6">
+            <h3>Our Favs!</h3>
+            <p>So Delicious, So Good</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="../Progress-Mark-One/Assets/pexels-adrian-dorobantu-2170312.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" url="https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="../Progress-Mark-One/Assets/plain jane.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </div>
+    </div>
+
+    <br>
+    <!-- SOTM -->
+    <div class="heading">
+        <h3 class="sub-head" style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Subs Of The Month</h3>
+    </div>
+   
+    <!--Card Container 1-->
+
+   <div class="container"style="margin-top:50px;">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="../Assets/spicy loaded chick.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Crispy Fried Chic</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="../Assets/the good one.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">The Good One</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top" src="../Assets/spicy chicken.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Spicy Chick</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        
+        </div>
+   </div>
+
+    <!--Card Container 2-->
+   <div class="container"style="margin-top:50px;">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 100%">
+                <img class="card-img-top" src="../Assets/spicy loaded chick.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Crispy Fried Chic</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width: 100%">
+                <img class="card-img-top" src="../Assets/the good one.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">The Good One</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width: 100%">
+                <img class="card-img-top" src="../Assets/spicy chicken.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Spicy Chick</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+  
+    </div>
+</div>
+<!--Card Container2-->
+
+ <!--Card Container 1-->
+
+<div class="container"style="margin-top:50px;">
+  <div class="row">
+      <div class="col-4">
+          <div class="card" style="width: 100%">
+              <img class="card-img-top" src="../Assets/spicy loaded chick.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Crispy Fried Chic</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-4">
+          <div class="card" style="width: 100%">
+              <img class="card-img-top" src="../Assets/the good one.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">The Good One</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="../Progress-Mark-One/pages/checkout.html" class="btn btn-outline-warning">Add to Cart</a>
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+  
+    
+  
+    
+</body>
+
+<footer>
+    
+    <!-- Copyright -->
+    
+    <div class="text-sm-right p-3" style="background-color: wheat; font-size: small; font-family:Verdana, Geneva, Tahoma, sans-serif; color: black;">
+      
+        <!-- Facebook -->
+        <a class="btn-1" href="https://www.facebook.com/" role="button">
+            <img src="./Assets/facebook_icon.svg" style="height:20px;">
+        </a>
+  
+        <!-- Twitter -->
+        <a class="btn-1" href="https://www.Twitter.com/" role="button">
+            <img src="./Assets/twitter_icon.svg" style="height:20px;">
+        </a>
+       
+  
+        <!-- Instagram -->
+        <a class="btn-1" href="https://www.Instagram.com/" role="button">
+            <img src="./Assets/instagram_icon.svg" style="height:20px;">
+        </a>
+        
+    </div>
+    <!-- Copyright -->
+  </footer>
+</html>

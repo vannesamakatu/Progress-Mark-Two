@@ -1,0 +1,9 @@
+.totalOrder{
+    float: left;
+    margin-left: 48%;
+}
+
+.totalOrder h3{
+    font-size: 40px;
+    margin-top: -10px;
+}
